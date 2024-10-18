@@ -1,0 +1,22 @@
+{
+  "name": "amanucash-link-generator",
+  "version": "1.0.0",
+  "description": "Generate crypto payment links for any application",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@squirrel-labs/peanut-sdk": "^0.5.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "express": "^4.21.1",
+    "express-rate-limit": "^6.7.0",
+    "morgan": "^1.10.0"
+  }
+}
